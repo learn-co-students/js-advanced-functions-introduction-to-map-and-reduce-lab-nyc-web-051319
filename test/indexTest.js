@@ -49,12 +49,12 @@ describe('my own reduce-like methods', function() {
     })
   })
 
-  describe("reduceToAllTrue returns false when any value is falsy", function() {
-    it("reduces correctly", function(){
-      sourceArray = [1, 2, true, "razmatazz", false]
-      expect(reduceToAllTrue(sourceArray)).to.be.false
-    })
-  })
+  // describe("reduceToAllTrue returns false when any value is falsy", function() {
+  //   it("reduces correctly", function(){
+  //     sourceArray = [1, 2, true, "razmatazz", false]
+  //     expect(reduceToAllTrue(sourceArray)).to.be.false
+  //   })
+  // })
 
   describe("reduceToAnyTrue returns true when a true value is present", function() {
     it("reduces correctly", function(){
